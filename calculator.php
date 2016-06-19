@@ -24,6 +24,10 @@ class calculator {
         $this->result = pow($a, $b);
     }
 
+    /**
+     * Get result
+     * @return type
+     */
     public function getResult() {
         return $this->result;
     }
