@@ -2,16 +2,21 @@
 
 class calculator {
 
+    private $result;
+    
     public function plus($a, $b) {
-        return $a + $b;
+        $this->result = $a + $b;
     }
 
     public function minus($a, $b) {
-        return $a - $b;
+        $this->result = $a - $b;
     }
 
     public function multiple($a, $b) {
-        return $a * $b;
+        $this->result = $a * $b;
     }
 
+    public function getResult() {
+        return $this->result;
+    }
 }
