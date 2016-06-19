@@ -16,6 +16,10 @@ class calculator {
         $this->result = $a * $b;
     }
 
+    public function div($a, $b) {
+        $this->result = $a / $b;
+    }
+
     public function pow($a, $b) {
         $this->result = pow($a, $b);
     }
