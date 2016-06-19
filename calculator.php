@@ -10,7 +10,7 @@ class calculator {
         return $a - $b;
     }
 
-    public function mult($a, $b) {
+    public function multiple($a, $b) {
         return $a * $b;
     }
 
